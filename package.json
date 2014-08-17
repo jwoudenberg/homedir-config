@@ -1,6 +1,6 @@
 {
   "name": "homedir-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Persistent configuration in a homedir config file.",
   "license": "MIT",
   "main": "lib/homedir-config.js",
