@@ -4,6 +4,9 @@
   "description": "Persistent configuration in a homedir config file.",
   "license": "MIT",
   "main": "lib/homedir-config.js",
+  "scripts": {
+    "test": "node ./examples/setget.js"
+  },
   "repository": {
       "type": "git",
       "url": "git://github.com/jwoudenberg/homedir-config.git"
