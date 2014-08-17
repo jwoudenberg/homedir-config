@@ -11,13 +11,17 @@ Install it from npm.
 The code below will create a new HomedirConfig instance, that saves and loads
 its configuration from `~/my-config.json`:
 
-    var HomedirConfig = require('homedir-config');
-    var config = new HomedirConfig('my-config');
+```node
+var HomedirConfig = require('homedir-config');
+var config = new HomedirConfig('my-config');
+```
 
 Now you can get and set keys from the configuration file:
 
-    config.set('foo', 'bar');
-    var result = config.get('foo');
-    console.log(result);  //-> 'bar'
+```node
+config.set('foo', 'bar');
+var result = config.get('foo');
+console.log(result);  //-> 'bar'
+```
 
 That's it!
